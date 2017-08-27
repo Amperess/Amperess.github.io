@@ -1,0 +1,157 @@
+/*
+Colors I might need #EDEEEF  #26262A
+*/
+
+*{
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+    position:relative;
+    margin: 0;
+    border:0;
+    padding:0;
+}
+/*
+
+First section: Landing page
+
+*/
+.landing{
+    overflow:hidden;
+    background-color: #151611;
+}
+.landing h1, h2, h3{
+    position: absolute;
+    color: white;
+    font-family: "Tenor Sans", sans-serif;
+}
+.landing h1{
+    font-size: 68px;
+    width: 800px;
+    text-align: center;
+    top: calc(50vh - 110px);
+    left: calc(50vw - 400px);
+}
+.landing h2{
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 3px;
+    font-size: 26px;
+    width: 800px;
+    text-align: center;
+    top: 51vh;
+    left: calc(50vw - calc(800px / 2));
+}
+.landing h3{
+    word-spacing: 60px;
+    width: 900px;
+    text-align: center;
+    top: 67vh;
+    left: calc(50vw - calc(900px / 2));
+}
+#icon1{
+    position: absolute;
+    top: 76vh;
+    left: calc(44vw - 15px);
+}
+#icon1 img{
+    height: 30px;
+    width: 30px;
+}
+#icon2{
+    position: absolute;
+    top: 76vh;
+    left: calc(48vw - 15px);
+}
+#icon2 img{
+    height: 30px;
+    width: 30px;
+}
+#icon3{
+    position: absolute;
+    top: 76vh;
+    left: calc(52vw - 15px);
+}
+#icon3 img{
+    height: 30px;
+    width: 30px;
+}
+#icon4{
+    position: absolute;
+    top: 76vh;
+    left: calc(56vw - 15px);
+}
+#icon4 img{
+    height: 30px;
+    width: 30px;
+}
+#header{
+    height: 100vh;
+    align-content: center;
+}
+#arrow{
+    position: absolute;
+    height: 35px;
+    width: 40px;
+    bottom: 2vh;
+    left: calc(50vw - 20px);
+}
+/*
+
+Second section: About me
+
+*/
+.aboutme{
+    background-color: white;
+    height: 100vh;
+    overflow:hidden;
+}
+.aboutme h1{
+    position: absolute;
+    font-size: 60px;
+    font-family: "Tenor Sans", sans-serif;
+    width: 900px;
+    text-align: center;
+    left: calc(50vw - 450px);
+    top: 10vh;
+}
+.aboutme p,h2, ul{
+    position: absolute;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+}
+.aboutme p{
+    max-width: 400px;
+    left: 2vw;
+    top: 35vh;
+    line-height: 40px;
+}
+.aboutme h2{
+    color: #551a8b;
+    font-size: 35px;
+    font-family: "Roboto", sans-serif;
+    left: 65vw;
+    top: 29vh;
+}
+.aboutme ul{
+    left: 68vw;
+    top: 38vh;
+    line-height: 35px;
+    list-style-image: url("diamond.png");
+}
+.aboutme li{
+    padding-left: 10px;
+}
+#extra{
+    list-style: none;
+}
+#propic{
+    position:absolute;
+    height: 350px;
+    width: 350px;
+    left: calc(50vw - 175px);
+    top: 25vh;
+}
+#purple{
+    color: #551a8b;
+    font-style: italic;
+}
