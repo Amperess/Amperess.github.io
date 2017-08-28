@@ -117,11 +117,11 @@ Second section: About me
 .aboutme p,h2, ul{
     position: absolute;
     font-family: "Open Sans", sans-serif;
-    font-size: 20px;
+    font-size: 22px;
 }
 .aboutme p{
-    max-width: 400px;
-    left: 2vw;
+    max-width: 30vw;
+    left: 5vw;
     top: 35vh;
     line-height: 40px;
 }
@@ -130,11 +130,12 @@ Second section: About me
     font-size: 35px;
     font-family: "Roboto", sans-serif;
     left: 65vw;
-    top: 29vh;
+    top: 31vh;
 }
 .aboutme ul{
     left: 68vw;
-    top: 38vh;
+    top: 40vh;
+    max-width: 30vw;
     line-height: 35px;
     list-style-image: url("diamond.png");
 }
