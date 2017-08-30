@@ -20,6 +20,10 @@ First section: Landing page
     overflow:hidden;
     background-color: #151611;
 }
+.landing a{
+    text-decoration: none;
+    color: white;
+}
 .landing h1, h2, h3{
     position: absolute;
     color: white;
@@ -155,4 +159,207 @@ Second section: About me
 #purple{
     color: #551a8b;
     font-style: italic;
+}
+/*
+
+Third section: Skills
+
+*/
+.skills{
+    background-color: #EDEEEF;
+    height: 100vh;
+    overflow:hidden;
+}
+.skills h1{
+    position: absolute;
+    font-size: 60px;
+    font-family: "Tenor Sans", sans-serif;
+    width: 900px;
+    text-align: center;
+    left: calc(50vw - 450px);
+    top: 10vh;
+}
+.skills h2{
+    position: absolute;
+    font-size: 20px;
+    font-family: "Tenor Sans", sans-serif;
+    color: black;
+    width: 150px;
+    text-align: center;
+    left: -25px;
+    top: 120px;
+}
+.skills img{
+    max-height: 100px;
+    max-width: 100px;
+}
+#java{
+    position: absolute;
+    left: 15vw;
+    top: 30vh;
+}
+#unity{
+    position: absolute;
+    left: 35vw;
+    top: 30vh;
+}
+#cs{
+    position: absolute;
+    left: 55vw;
+    top: 30vh;
+}
+#html{
+    position: absolute;
+    left: 75vw;
+    top: 30vh;
+}
+#html h2{
+    left: -35px;
+}
+#css{
+    position: absolute;
+    left: 15vw;
+    top: 65vh;
+}
+#js{
+    position: absolute;
+    left: 35vw;
+    top: 70vh;
+}
+#js h2{
+    top: 13vh;
+}
+#js img{
+    top: -5px;
+}
+#pyth{
+    position: absolute;
+    left: 55vw;
+    top: 65vh;
+}
+#jupy{
+    position: absolute;
+    left: 75vw;
+    top: 65vh;
+}
+/*
+
+Fourth section: Projects
+
+*/
+.projects{
+    background-color: white;
+    height: 100vh;
+    overflow:hidden;
+}
+.projects h1{
+    position: absolute;
+    font-size: 60px;
+    font-family: "Tenor Sans", sans-serif;
+    width: 900px;
+    text-align: center;
+    left: calc(50vw - 450px);
+    top: 1vh;
+}
+.projects img{
+    max-width: 320px;
+    max-height: 320px;
+}
+#skelepun{
+    position: absolute;
+    top: 15vh;
+    left: calc(33vw - 160px);
+}
+#grist{
+    position: absolute;
+    top: 15vh;
+    left: calc(66vw - 160px);
+}
+#synth{
+    position: absolute;
+    top: 50vh;
+    left: calc(33vw - 160px);
+}
+#inter{
+    position: absolute;
+    top: 50vh;
+    left: calc(66vw - 160px);
+}
+.projects p{
+    font-family: "Open Sans", sans-serif;
+    position: absolute;
+    bottom: 6vh;
+    left: calc(50vw - 55px);
+    width: 110px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #551a8b;
+    background-color: #551a8b;
+    border-radius: 10px;
+}
+.projects a{
+    text-decoration: none;
+    color: white;
+    
+}
+/*
+
+Fifth section: contact me
+
+*/
+.contact{
+    background-color: #26262A;
+    height: 50vh;
+    max-height: 300px;
+    overflow:hidden;
+}
+.contact h1{
+    color: white;
+    position: absolute;
+    font-size: 60px;
+    font-family: "Tenor Sans", sans-serif;
+    width: 900px;
+    text-align: center;
+    left: calc(50vw - 450px);
+    top: 10vh;
+}
+#icone1{
+    position: absolute;
+    top: 30vh;
+    left: calc(44vw - 15px);
+}
+#icone1 img{
+    height: 30px;
+    width: 30px;
+}
+#icone2{
+    position: absolute;
+    top: 30vh;
+    left: calc(48vw - 15px);
+}
+#icone2 img{
+    height: 30px;
+    width: 30px;
+}
+#icone3{
+    position: absolute;
+    top: 30vh;
+    left: calc(52vw - 15px);
+}
+#icone3 img{
+    height: 30px;
+    width: 30px;
+}
+#icone4{
+    position: absolute;
+    top: 30vh;
+    left: calc(56vw - 15px);
+}
+#icone4 img{
+    height: 30px;
+    width: 30px;
 }
