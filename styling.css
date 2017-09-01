@@ -192,13 +192,45 @@ Third section: Skills
     height: 17vh;
     display: block;
     margin: 0 auto;
-    z-index: 1;
     top: -22vh;
+}
+.inside{
+    opacity: 0;
+    position: absolute;
+    background-color: #EDEEEF;
+    height: 22vh;
+    width: 22vh;
+    border-radius: 50%;
+    left: 4.2vw;
+    top: 1.5vh;
+}
+.inside:hover{
+    opacity: 100;
+}
+.skills h3{
+    color: #551a8b;
+    width: 22vh;
+    font-size: 2vh;
+    text-align: center;
+    top: 5vh;
+}
+.skills p{
+    top: 10vh;
+    width: 22vh;
+    font-size: 2vh;
+    text-align: center;
+    color: black;
+}
+#inst{
+    top: 14vh;
+    font-size: 2.5vh;
+    left: calc(50vw - 200px);
+    width: 400px;
+    text-align: center;
 }
 #bubble{
     top: 0;
     height: 25vh;
-    z-index: 0;
 }
 #java{
     position: absolute;
