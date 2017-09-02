@@ -19,6 +19,14 @@ First section: Landing page
 .landing{
     overflow:hidden;
     background-color: #151611;
+    max-height: 100vh;
+}
+#arrow{
+    position: absolute;
+    height: 5vh;
+    width: 3vw;
+    top: 94vh;
+    left: calc(50vw - 1.5vw);
 }
 .landing a{
     text-decoration: none;
@@ -30,6 +38,7 @@ First section: Landing page
     font-family: "Tenor Sans", sans-serif;
 }
 .landing h1{
+    position: absolute;
     font-size: 68px;
     width: 800px;
     text-align: center;
@@ -37,6 +46,7 @@ First section: Landing page
     left: calc(50vw - 400px);
 }
 .landing h2{
+    position: absolute;
     font-family: "Roboto", sans-serif;
     letter-spacing: 3px;
     font-size: 26px;
@@ -46,6 +56,7 @@ First section: Landing page
     left: calc(50vw - calc(800px / 2));
 }
 .landing h3{
+    position: absolute;
     word-spacing: 60px;
     width: 900px;
     text-align: center;
@@ -91,13 +102,6 @@ First section: Landing page
 #header{
     height: 100vh;
     align-content: center;
-}
-#arrow{
-    position: absolute;
-    height: 35px;
-    width: 40px;
-    bottom: 2vh;
-    left: calc(50vw - 20px);
 }
 /*
 
@@ -307,7 +311,7 @@ Fourth section: Projects
 }
 .projects img{
     position: absolute;
-    max-width: 30vw;
+    width: 28vw;
     max-height: 30vh;
 }
 #skelepun{
@@ -319,7 +323,7 @@ Fourth section: Projects
     position: absolute;
     background-color: rgba(0,0,0,0.6);
     height: 30vh;
-    width: 28.4vw;
+    width: 28vw;
     opacity: 0; 
 }
 .info:hover{
@@ -352,7 +356,7 @@ Fourth section: Projects
 }
 #tag1 img{
     height: auto;
-    width: 120px;
+    width: 6.4vw;
     top: 21vh;
     left: 2vw;
 }
@@ -362,7 +366,7 @@ Fourth section: Projects
 }
 #tag2 img{
     height: auto;
-    width: 120px;
+    width: 6.4vw;
     top: 21vh;
     left: 9vw;
 }
@@ -380,9 +384,6 @@ Fourth section: Projects
     top: 10vh;
     left: 1vw;
     background-color: white;   
-}
-.info p{
-    
 }
 .info img{
     height: 20px;
@@ -416,6 +417,9 @@ Fourth section: Projects
     background-color: #551a8b;
     border-radius: 10px;
 }
+#button:hover{
+    background-color: #7647a2;
+}
 .projects a{
     text-decoration: none;
     color: white;
@@ -444,7 +448,7 @@ Fifth section: contact me
 }
 #icone1{
     position: absolute;
-    top: 30vh;
+    top: 26vh;
     left: calc(44vw - 15px);
 }
 #icone1 img{
@@ -453,7 +457,7 @@ Fifth section: contact me
 }
 #icone2{
     position: absolute;
-    top: 30vh;
+    top: 26vh;
     left: calc(48vw - 15px);
 }
 #icone2 img{
@@ -462,7 +466,7 @@ Fifth section: contact me
 }
 #icone3{
     position: absolute;
-    top: 30vh;
+    top: 26vh;
     left: calc(52vw - 15px);
 }
 #icone3 img{
@@ -471,7 +475,7 @@ Fifth section: contact me
 }
 #icone4{
     position: absolute;
-    top: 30vh;
+    top: 26vh;
     left: calc(56vw - 15px);
 }
 #icone4 img{
