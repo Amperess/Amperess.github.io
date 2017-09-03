@@ -128,10 +128,12 @@ Second section: About me
     font-size: 22px;
 }
 .aboutme p{
-    max-width: 30vw;
-    left: 5vw;
-    top: 35vh;
-    line-height: 40px;
+    font-size: 22px;
+    line-height: 35px;
+    color: black;
+    max-width: 34vw;
+    right: calc(50vw + 13vw);
+    top: 30.5vh;
 }
 .aboutme h2{
     color: #551a8b;
@@ -155,9 +157,9 @@ Second section: About me
 }
 #propic{
     position:absolute;
-    height: 350px;
-    width: 350px;
-    left: calc(50vw - 175px);
+    height: 28vw;
+    width: 28vw;
+    left: calc(50vw - 14vw);
     top: 25vh;
 }
 #purple{
