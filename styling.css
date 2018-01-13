@@ -121,39 +121,26 @@ Second section: About me
     font-family: "Open Sans", sans-serif;
     font-size: 22px;
 }
-.aboutme p{
-    font-size: 22px;
-    line-height: 35px;
-    color: black;
-    max-width: 34vw;
-    right: calc(50vw + 13vw);
-    top: 30.5vh;
-}
 .aboutme h2{
     color: #551a8b;
     font-size: 35px;
     font-family: "Roboto", sans-serif;
-    left: 65vw;
-    top: 31vh;
+    left: 53vw;
+    top: 24vh;
 }
-.aboutme ul{
-    left: 68vw;
-    top: 40vh;
-    max-width: 30vw;
+.aboutme p{
+    font-size: 22px;
     line-height: 35px;
-    list-style-image: url("diamond.png");
-}
-.aboutme li{
-    padding-left: 10px;
-}
-#extra{
-    list-style: none;
+    color: black;
+    max-width: 45vw;
+    left: 45vw;
+    top: 34vh;
 }
 #propic{
     position:absolute;
     height: 28vw;
     width: 28vw;
-    left: calc(50vw - 14vw);
+    left: calc(25vw - 14vw);
     top: 25vh;
 }
 #purple{
