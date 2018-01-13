@@ -1,5 +1,9 @@
 /*
-Colors I might need #EDEEEF  #26262A
+Colors:
+Teal: #3FBCBE
+Coral: #E8828D
+Periwinkle: #A6C2FF
+Pink: #D9A3D7
 */
 
 *{
@@ -42,25 +46,15 @@ First section: Landing page
     font-size: 68px;
     width: 800px;
     text-align: center;
-    top: calc(50vh - 110px);
+    top: calc(60vh - 110px);
     left: calc(50vw - 400px);
-}
-.landing h2{
-    position: absolute;
-    font-family: "Roboto", sans-serif;
-    letter-spacing: 3px;
-    font-size: 26px;
-    width: 800px;
-    text-align: center;
-    top: 51vh;
-    left: calc(50vw - calc(800px / 2));
 }
 .landing h3{
     position: absolute;
     word-spacing: 60px;
     width: 900px;
     text-align: center;
-    top: 67vh;
+    top: 66vh;
     left: calc(50vw - calc(900px / 2));
 }
 #icon1{
